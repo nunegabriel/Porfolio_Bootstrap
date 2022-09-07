@@ -4,11 +4,74 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css">
-  <title>Portfolio</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="assets/js/bootstrap.min.js"></script>
+  <title>Portfolio - using bootstrap</title>
 </head>
 <body>
   
-  
+    <header>
+     
+      <div class="container-fluid ">
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+  <a class="navbar-brand text-primary font-weight-bold " href="#">My Logo</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#portfolio">Portoflio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+      </div>
+      
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+<!-- Welcome Section -->
+<section id="welcome">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">Welcome</h1>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center">Portfolio</h1>
+          </div>
+        </div>
+      </div>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center">About</h1>
+          </div>
+        </div>
+      </div>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center">Contact</h1>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    
+ 
 </body>
 </html>
