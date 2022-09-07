@@ -1,0 +1,27 @@
+.land {
+  background-image: url(./img/Headerbg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 80px;
+  height: 500px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.head {
+  color: #172b4d;
+  font-weight: 700;
+}
+
+.pr-2 {
+  color: #7f8cff;
+}
