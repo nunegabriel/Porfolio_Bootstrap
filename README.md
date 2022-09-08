@@ -11,7 +11,7 @@
  ## Getting Started
 
 > To get this locally 
-- run in your terminal git clone https://github.com/nunegabriel/personal-portfolio 
+- run in your terminal git clone https://github.com/nunegabriel/Porfolio_Bootstrap 
 - cd to the local directory
 - open the index.html
 
